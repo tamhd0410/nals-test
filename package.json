@@ -1,69 +1,73 @@
 {
-    "name": "nal-test",
-    "version": "0.1.0",
-    "private": true,
-    "dependencies": {
-        "@reduxjs/toolkit": "^1.9.3",
-        "@testing-library/jest-dom": "^5.14.1",
-        "@testing-library/react": "^13.0.0",
-        "@testing-library/user-event": "^13.2.1",
-        "@types/jest": "^27.0.1",
-        "@types/node": "^16.7.13",
-        "@types/react": "^18.0.0",
-        "@types/react-dom": "^18.0.0",
-        "axios": "^1.3.5",
-        "bootstrap": "^5.2.3",
-        "classnames": "^2.3.2",
-        "jquery": "^3.6.4",
-        "node-sass": "^7.0.3",
-        "popper.js": "^1.16.1",
-        "react": "^18.2.0",
-        "react-bootstrap": "^2.7.2",
-        "react-dom": "^18.2.0",
-        "react-lazy-load-image-component": "^1.5.6",
-        "react-loading-skeleton": "^3.2.0",
-        "react-redux": "^8.0.5",
-        "react-router-dom": "^6.10.0",
-        "react-scripts": "5.0.1",
-        "typescript": "^4.4.2",
-        "web-vitals": "^2.1.0"
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "lint": "eslint --ext js,jsx,ts,tsx src/ --max-warnings=0",
-        "lint:fix": "eslint --fix --ext js,jsx,ts,tsx src/",
-        "prettier": "prettier --check \"src/**/(*.tsx|*.ts|*.jsx|*.js|*.scss|*.css)\"",
-        "prettier:fix": "prettier --write \"src/**/(*.tsx|*.ts|*.jsx|*.js|*.scss|*.css)\""
-    },
-    "eslintConfig": {
-        "extends": [
-            "react-app",
-            "react-app/jest"
-        ]
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    },
-    "devDependencies": {
-        "@types/react-lazy-load-image-component": "^1.5.2",
-        "@typescript-eslint/eslint-plugin": "^5.57.1",
-        "@typescript-eslint/parser": "^5.57.1",
-        "css-loader": "^3.6.0",
-        "eslint": "^8.37.0",
-        "eslint-config-prettier": "^8.8.0",
-        "eslint-plugin-prettier": "^4.2.1",
-        "prettier": "^2.8.7"
-    }
+  "name": "nal-test",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://tamhd0410.github.io/nals-test/",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "axios": "^1.3.5",
+    "bootstrap": "^5.2.3",
+    "classnames": "^2.3.2",
+    "gh-pages": "^5.0.0",
+    "jquery": "^3.6.4",
+    "node-sass": "^7.0.3",
+    "popper.js": "^1.16.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^18.2.0",
+    "react-lazy-load-image-component": "^1.5.6",
+    "react-loading-skeleton": "^3.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.10.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.4.2",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext js,jsx,ts,tsx src/ --max-warnings=0",
+    "lint:fix": "eslint --fix --ext js,jsx,ts,tsx src/",
+    "prettier": "prettier --check \"src/**/(*.tsx|*.ts|*.jsx|*.js|*.scss|*.css)\"",
+    "prettier:fix": "prettier --write \"src/**/(*.tsx|*.ts|*.jsx|*.js|*.scss|*.css)\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-lazy-load-image-component": "^1.5.2",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "css-loader": "^3.6.0",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.7"
+  }
 }
